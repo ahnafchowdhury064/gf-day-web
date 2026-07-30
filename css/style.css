@@ -240,7 +240,10 @@ body{
 
 .card h2{
 
-    color:#377EA1;
+    color:linear-gradient(
+    135deg,
+    #ff73b8,
+    #ff95cf);
 
     margin-bottom:12px;
 
@@ -248,7 +251,10 @@ body{
 
 .card p{
 
-    color:#377EA1;
+    color:linear-gradient(
+    135deg,
+    #ff73b8,
+    #ff95cf);
 
     opacity:.9;
 
@@ -445,7 +451,7 @@ section{
     line-height:2;
 
     font-size:18px;
-    color: #377EA1;
+    color: #F059B5;
 
     white-space:pre-line;
 
