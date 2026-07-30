@@ -52,17 +52,17 @@ I love you more than words could ever explain...
     // ===========================
     photos: [
 
-        "assets/images/photo1.jpg",
+        "assets/images/photo_1.jpg",
 
-        "assets/images/photo2.jpg",
+        "assets/images/photo_2.jpg",
 
-        "assets/images/photo3.jpg",
+        "assets/images/photo_3.jpg",
 
-        "assets/images/photo4.jpg",
+        "assets/images/photo_4.jpg",
 
-        "assets/images/photo5.jpg",
+        "assets/images/photo_5.jpg",
 
-        "assets/images/photo6.jpg"
+        "assets/images/photo_6.jpg"
 
     ],
 
