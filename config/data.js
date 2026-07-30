@@ -61,7 +61,11 @@ I love you more than words could ever explain...
 
         "assets/images/photo_5.jpg",
 
-        "assets/images/photo_6.jpg"
+        "assets/images/photo_6.jpg",
+
+        "assets/images/photo_7.jpg",
+
+        "assets/images/photo_8.jpg"
 
     ],
 
