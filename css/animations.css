@@ -1,0 +1,447 @@
+/* ==========================================
+   FLOATING HEARTS
+========================================== */
+
+.heart{
+
+    position:fixed;
+
+    bottom:-80px;
+
+    color:#ff6fa9;
+
+    font-size:22px;
+
+    pointer-events:none;
+
+    animation:floatHeart linear forwards;
+
+    opacity:.9;
+
+}
+
+@keyframes floatHeart{
+
+    0%{
+
+        transform:
+        translateY(0)
+        rotate(0deg)
+        scale(.5);
+
+        opacity:0;
+
+    }
+
+    10%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:
+        translateY(-120vh)
+        rotate(360deg)
+        scale(1.4);
+
+        opacity:0;
+
+    }
+
+}
+
+/* ==========================================
+   HERO FLOAT
+========================================== */
+
+.hero-card{
+
+    animation:heroFloat 5s ease-in-out infinite;
+
+}
+
+@keyframes heroFloat{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+/* ==========================================
+   FADE UP
+========================================== */
+
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:all .9s ease;
+
+}
+
+.fade-up.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* ==========================================
+   FADE LEFT
+========================================== */
+
+.fade-left{
+
+    opacity:0;
+
+    transform:translateX(-60px);
+
+    transition:.8s;
+
+}
+
+.fade-left.show{
+
+    opacity:1;
+
+    transform:translateX(0);
+
+}
+
+/* ==========================================
+   FADE RIGHT
+========================================== */
+
+.fade-right{
+
+    opacity:0;
+
+    transform:translateX(60px);
+
+    transition:.8s;
+
+}
+
+.fade-right.show{
+
+    opacity:1;
+
+    transform:translateX(0);
+
+}
+
+/* ==========================================
+   HEART LOADER
+========================================== */
+
+@keyframes pulse{
+
+    0%{
+
+        transform:
+        rotate(45deg)
+        scale(.85);
+
+    }
+
+    50%{
+
+        transform:
+        rotate(45deg)
+        scale(1);
+
+    }
+
+    100%{
+
+        transform:
+        rotate(45deg)
+        scale(.85);
+
+    }
+
+}
+
+/* ==========================================
+   BUTTON GLOW
+========================================== */
+
+#surpriseBtn{
+
+    animation:buttonGlow 2.5s infinite;
+
+}
+
+@keyframes buttonGlow{
+
+    0%{
+
+        box-shadow:
+        0 0 0 rgba(255,100,180,0);
+
+    }
+
+    50%{
+
+        box-shadow:
+        0 0 35px rgba(255,120,190,.55);
+
+    }
+
+    100%{
+
+        box-shadow:
+        0 0 0 rgba(255,100,180,0);
+
+    }
+
+}
+
+/* ==========================================
+   POPUP
+========================================== */
+
+@keyframes popupIn{
+
+    from{
+
+        transform:
+        scale(.7);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:
+        scale(1);
+
+        opacity:1;
+
+    }
+
+}
+
+/* ==========================================
+   CARD HOVER
+========================================== */
+
+.glass{
+
+    transition:.35s;
+
+}
+
+.glass:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ==========================================
+   IMAGE HOVER
+========================================== */
+
+.gallery-grid img{
+
+    transition:
+    transform .4s,
+    box-shadow .4s;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:
+    scale(1.06)
+    rotate(1deg);
+
+    box-shadow:
+    0 25px 45px rgba(0,0,0,.2);
+
+}
+
+/* ==========================================
+   GRADIENT BACKGROUND
+========================================== */
+
+.animated-bg{
+
+    background-size:300% 300%;
+
+    animation:gradientMove 12s ease infinite;
+
+}
+
+@keyframes gradientMove{
+
+    0%{
+
+        background-position:0% 50%;
+
+    }
+
+    50%{
+
+        background-position:100% 50%;
+
+    }
+
+    100%{
+
+        background-position:0% 50%;
+
+    }
+
+}
+
+/* ==========================================
+   SPARKLE
+========================================== */
+
+.sparkle{
+
+    position:absolute;
+
+    width:8px;
+
+    height:8px;
+
+    border-radius:50%;
+
+    background:white;
+
+    animation:sparkle 2s infinite;
+
+}
+
+@keyframes sparkle{
+
+    0%{
+
+        transform:scale(0);
+
+        opacity:0;
+
+    }
+
+    50%{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:scale(0);
+
+        opacity:0;
+
+    }
+
+}
+
+/* ==========================================
+   FLOATING BLOBS
+========================================== */
+
+.blob{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(60px);
+
+    animation:blobMove 18s ease-in-out infinite;
+
+}
+
+@keyframes blobMove{
+
+    0%{
+
+        transform:translate(0,0);
+
+    }
+
+    25%{
+
+        transform:translate(60px,-40px);
+
+    }
+
+    50%{
+
+        transform:translate(-30px,70px);
+
+    }
+
+    75%{
+
+        transform:translate(40px,-20px);
+
+    }
+
+    100%{
+
+        transform:translate(0,0);
+
+    }
+
+}
+
+/* ==========================================
+   SCROLL INDICATOR
+========================================== */
+
+.scroll-indicator{
+
+    animation:bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+
+    0%,20%,50%,80%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    40%{
+
+        transform:translateY(-12px);
+
+    }
+
+    60%{
+
+        transform:translateY(-6px);
+
+    }
+
+}
