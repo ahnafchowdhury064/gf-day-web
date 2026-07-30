@@ -432,6 +432,7 @@ section{
 .section-card h2{
 
     font-size:40px;
+    color: #377EA1;
 
     margin-bottom:25px;
 
@@ -444,6 +445,7 @@ section{
     line-height:2;
 
     font-size:18px;
+    color: #377EA1;
 
     white-space:pre-line;
 
