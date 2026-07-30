@@ -14,8 +14,8 @@ const CONFIG = {
     // ===========================
     // HERO
     // ===========================
-    heroTitle: "Every moment that we spent together",
-    heroSubtitle: "Forever want to be your first person to be remembered anytime by you ",
+    heroTitle: "It's your day My Dear Better Half 🖤",
+    heroSubtitle: "I always want you to remember me, no matter what situation you are in. No more faul talk, just enjoy my thing hehe 😗",
 
     // ===========================
     // LOVE LETTER
