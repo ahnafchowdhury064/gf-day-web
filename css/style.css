@@ -204,6 +204,8 @@ body{
 
     height:100vh;
 
+    color: #377EA1;
+
     display:flex;
 
     justify-content:center;
@@ -238,7 +240,7 @@ body{
 
 .card h2{
 
-    color:white;
+    color:#377EA1;
 
     margin-bottom:12px;
 
@@ -246,7 +248,7 @@ body{
 
 .card p{
 
-    color:white;
+    color:#377EA1;
 
     opacity:.9;
 
@@ -359,7 +361,7 @@ body{
 
     font-size:72px;
 
-    color:white;
+    color:#377EA1;
 
     margin-bottom:20px;
 
@@ -371,7 +373,7 @@ body{
 
     line-height:1.8;
 
-    color:white;
+    color:#377EA1;
 
 }
 
@@ -455,6 +457,8 @@ section{
 
     text-align:center;
 
+    color: #377EA1;
+
     margin-bottom:50px;
 
     font-size:42px;
@@ -522,7 +526,7 @@ section{
 .timer-card h2{
 
     font-size:40px;
-
+    color: #377EA1;
     margin-bottom:35px;
 
 }
@@ -555,7 +559,7 @@ section{
 
     font-size:42px;
 
-    color:white;
+    color:#377EA1;
 
 }
 
