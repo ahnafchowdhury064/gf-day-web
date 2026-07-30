@@ -1,0 +1,497 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    overflow-x:hidden;
+    color:#ffffff;
+
+    background:linear-gradient(
+        135deg,
+        #ffd6ea,
+        #f4d8ff,
+        #e8dcff
+    );
+
+    min-height:100vh;
+}
+
+/* ===========================
+   VARIABLES
+=========================== */
+
+:root{
+
+    --primary:#ff8cc6;
+    --secondary:#d8b8ff;
+    --accent:#ff5ca8;
+
+    --glass:rgba(255,255,255,.18);
+
+    --border:rgba(255,255,255,.30);
+
+    --shadow:
+    0 10px 40px rgba(0,0,0,.15);
+
+}
+
+/* ===========================
+   LOADER
+=========================== */
+
+#loader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:linear-gradient(
+    135deg,
+    #ffd8ee,
+    #edd8ff);
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+}
+
+#loader p{
+
+    margin-top:25px;
+
+    color:#ffffff;
+
+    font-size:20px;
+
+}
+
+.heart-loader{
+
+    width:80px;
+
+    height:80px;
+
+    background:#ff5ca8;
+
+    transform:rotate(45deg);
+
+    animation:pulse 1s infinite;
+
+}
+
+.heart-loader::before,
+.heart-loader::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:80px;
+
+    height:80px;
+
+    background:#ff5ca8;
+
+    border-radius:50%;
+
+}
+
+.heart-loader::before{
+
+    left:-40px;
+
+}
+
+.heart-loader::after{
+
+    top:-40px;
+
+}
+
+/* ===========================
+   BACKGROUND
+=========================== */
+
+.animated-bg{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:-2;
+
+    background:
+
+    radial-gradient(circle at 20% 20%,
+    rgba(255,255,255,.35),
+    transparent 35%),
+
+    radial-gradient(circle at 80% 20%,
+    rgba(255,255,255,.25),
+    transparent 30%),
+
+    radial-gradient(circle at 60% 80%,
+    rgba(255,255,255,.25),
+    transparent 30%),
+
+    linear-gradient(
+    135deg,
+    #ffd6ea,
+    #e9d8ff,
+    #d8ebff);
+
+}
+
+/* ===========================
+   FLOATING HEART CONTAINER
+=========================== */
+
+#hearts{
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    overflow:hidden;
+
+    z-index:-1;
+
+}
+
+/* ===========================
+   GLASS
+=========================== */
+
+.glass{
+
+    background:rgba(255,255,255,.18);
+
+    border:1px solid rgba(255,255,255,.30);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    box-shadow:var(--shadow);
+
+}
+
+/* ===========================
+   PASSWORD SCREEN
+=========================== */
+
+#password-screen{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:25px;
+
+}
+
+.card{
+
+    width:100%;
+
+    max-width:430px;
+
+    padding:45px;
+
+    border-radius:30px;
+
+    text-align:center;
+
+}
+
+.card h1{
+
+    font-size:70px;
+
+    margin-bottom:10px;
+
+}
+
+.card h2{
+
+    color:white;
+
+    margin-bottom:12px;
+
+}
+
+.card p{
+
+    color:white;
+
+    opacity:.9;
+
+    line-height:1.7;
+
+}
+
+.card input{
+
+    width:100%;
+
+    padding:16px;
+
+    margin-top:30px;
+
+    border:none;
+
+    border-radius:15px;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+.card button{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    cursor:pointer;
+
+    background:linear-gradient(
+    135deg,
+    #ff73b8,
+    #ff95cf);
+
+    color:white;
+
+    font-size:17px;
+
+    transition:.35s;
+
+}
+
+.card button:hover{
+
+    transform:translateY(-4px);
+
+}
+
+#passwordMessage{
+
+    margin-top:20px;
+
+    color:#ff4b5f;
+
+}
+
+/* ===========================
+   HIDDEN
+=========================== */
+
+.hidden{
+
+    display:none;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.hero-card{
+
+    max-width:850px;
+
+    padding:60px;
+
+    border-radius:35px;
+
+}
+
+.hero-card h1{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:72px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.hero-card p{
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    color:white;
+
+}
+
+.hero-card a{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    background:white;
+
+    color:#ff4ea0;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.hero-card a:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+
+}
+
+/* ===========================
+   SECTIONS
+=========================== */
+
+section{
+
+    padding:90px 8%;
+
+}
+
+.section-card{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:45px;
+
+    border-radius:30px;
+
+}
+
+.section-card h2{
+
+    font-size:40px;
+
+    margin-bottom:25px;
+
+    text-align:center;
+
+}
+
+.section-card p{
+
+    line-height:2;
+
+    font-size:18px;
+
+    white-space:pre-line;
+
+}
+
+/* ===========================
+   GALLERY
+=========================== */
+
+#gallery h2{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    font-size:42px;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+.gallery-grid img{
+
+    width:100%;
+
+    aspect-ratio:1;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.05);
+
+}
