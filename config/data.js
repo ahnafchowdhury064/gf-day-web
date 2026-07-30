@@ -8,7 +8,7 @@ const CONFIG = {
     // ===========================
     // NAMES
     // ===========================
-    yourName: "Rounaikka",
+    yourName: "Rounaikkaa",
     partnerName: "Muntakah ",
 
     // ===========================
