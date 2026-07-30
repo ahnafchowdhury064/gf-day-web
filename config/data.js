@@ -3,40 +3,36 @@ const CONFIG = {
     // ===========================
     // PASSWORD
     // ===========================
-    password: "143",
+    password: "1009",
 
     // ===========================
     // NAMES
     // ===========================
-    yourName: "Walid",
-    partnerName: "My Love ❤️",
+    yourName: "Rounaikka",
+    partnerName: "Muntakah ",
 
     // ===========================
     // HERO
     // ===========================
-    heroTitle: "Every Moment With You",
-    heroSubtitle: "My favorite place is wherever you are.",
+    heroTitle: "Every moment that we spent together",
+    heroSubtitle: "Forever want to be your first person to be remembered anytime by you ",
 
     // ===========================
     // LOVE LETTER
     // ===========================
     loveLetter: `
-My Love,
+Amar gulugulu baby (your kuchupuchubaby is speaking 😆),
 
-Every single day with you becomes another beautiful memory that I never want to lose.
+tumare ami promise korsilam sobsomoy amar best ta diya alltime tumare mon thaikka bhalapaimu, but ami to dekhtasi amar best love ta tumar lagi khali bairai jaitase.
+protidin call e tumar hashi shunle amar chutumutu montao oisomoy hashe, sobsomoy tumare hashikhusi rakhtam ite oi amar onek boro dua and iccha, Insha Allah ami tumare sobcheye best treat kormu (ofc ammu abbu thaikka besi obbossoi partam na)
+ajke besi kicchu koitam na, ekta kotha oi koimu je amar bhalobasha tumar lagi kunu somoy sesh hoitona, tumare kunusomoy chaira jaitam na,chaira jaiteo ditam na,ami alltime tumar baby hoiya thaktam chai
 
-Thank you for making ordinary moments feel magical.
-
-No matter where life takes us, I promise to keep choosing you, every single day.
-
-You're my happiness,
-my peace,
+You are my better half baby,
 my favorite notification,
-and my forever person.
+and my most wanted fav food .
 
-I love you more than words could ever explain.
+I love you more than words could ever explain...
 
-Forever Yours ❤️
 `,
 
     // ===========================
@@ -44,7 +40,7 @@ Forever Yours ❤️
     // Format:
     // YYYY-MM-DD HH:MM:SS
     // ===========================
-    togetherSince: "2025-03-01 00:00:00",
+    togetherSince: "2025-02-26 00:00:00",
 
     // ===========================
     // MUSIC
@@ -73,21 +69,18 @@ Forever Yours ❤️
     // ===========================
     // SURPRISE
     // ===========================
-    surpriseTitle: "A Little Surprise ❤️",
+    surpriseTitle: "gulugulu baby er lagi gulugulu surprise",
 
     surpriseMessage: `
-You are the most beautiful part of my life.
+You are the mostestttt beautiful and sexiest part of my life.
 
 Thank you for every smile,
 every laugh,
 every memory,
 and every dream we've shared.
-
 No matter what happens,
 
 I will always choose you.
-
-Forever ❤️
 `,
 
     // ===========================
