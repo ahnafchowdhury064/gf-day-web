@@ -45,7 +45,7 @@ I love you more than words could ever explain...
     // ===========================
     // MUSIC
     // ===========================
-    music: "assets/music/love.mp3",
+    music: "assets/music/Thinking Of You - AP Dhillon.mp3",
 
     // ===========================
     // PHOTO GALLERY
