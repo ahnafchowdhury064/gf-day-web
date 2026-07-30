@@ -30,7 +30,6 @@ ajke besi kicchu koitam na, ekta kotha oi koimu je amar bhalobasha tumar lagi ku
 You are my better half baby,
 my favorite notification,
 and my most wanted fav food .
-
 I love you more than words could ever explain...
 
 `,
