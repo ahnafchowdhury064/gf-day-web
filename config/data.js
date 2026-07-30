@@ -94,7 +94,7 @@ I will always choose you.
 
         accent: "#ff6fa9",
 
-        white: "#ffffff"
+        white: "#362B2B"
 
     }
 
